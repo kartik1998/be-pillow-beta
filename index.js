@@ -28,7 +28,7 @@ app.get('/updateToken', async (req, res) => {
   }
 });
 
-const cronPattern = '* * * * *';
+const cronPattern = '0 */2 * * *';
 cron.schedule(cronPattern, () => {
   updateJwtToken();
   console.log('jwt token updation crob job: ' + cronPattern);
