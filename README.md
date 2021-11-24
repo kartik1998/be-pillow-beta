@@ -1,3 +1,3 @@
-# Pillo.fund beta Backend
+# Pillow.fund beta Backend
 
 - https://www.pillow.fund/
